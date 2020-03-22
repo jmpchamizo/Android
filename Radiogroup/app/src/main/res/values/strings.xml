@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Radiogroup</string>
+    <string name="rbtRed">Rojo</string>
+    <string name="rbtGreen">Verde</string>
+    <string name="rbtBlue">Azul</string>
+    <string name="rbtYellow">Amarillo</string>
+    <string name="txvMessage">Programación con Android</string>
+</resources>
