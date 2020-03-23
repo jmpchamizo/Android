@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="options">
+        <item>@string/breakfast</item>
+        <item>@string/lunch</item>
+        <item>@string/dinner</item>
+    </array>
+    <array name="breakfast">
+        <item>@string/breakfast1</item>
+        <item>@string/breakfast2</item>
+        <item>@string/breakfast3</item>
+    </array>
+    <array name="lunch">
+        <item>@string/lunch1</item>
+        <item>@string/lunch2</item>
+        <item>@string/lunch3</item>
+    </array>
+    <array name="dinner">
+        <item>@string/dinner1</item>
+        <item>@string/dinner2</item>
+        <item>@string/dinner3</item>
+    </array>
+</resources>

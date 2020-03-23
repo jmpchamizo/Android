@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MenuDieta</string>
+    <string name="txvTitle">Menu Dieta</string>
+    <string name="breakfast1">Chocolate con churros</string>
+    <string name="breakfast2">Café con tostada</string>
+    <string name="breakfast3">Café con barrita con tomate</string>
+    <string name="lunch1">Fabada Asturiana</string>
+    <string name="lunch2">Cocido Madrileño</string>
+    <string name="lunch3">Paella Valenciana</string>
+    <string name="dinner1">Tortilla de patata</string>
+    <string name="dinner2">Croquetas</string>
+    <string name="dinner3">Calamares</string>
+    <string name="btn">Generar</string>
+    <string name="breakfast">Desayuno</string>
+    <string name="lunch">Comida</string>
+    <string name="dinner">Cena</string>
+</resources>
