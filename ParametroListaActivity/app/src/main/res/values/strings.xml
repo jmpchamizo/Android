@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ej Parametros</string>
+    <string name="btn">Mostrar listado de clientes</string>
+    <string name="txvTitle">Clientes:</string>
+    <string name="close">Cerrar</string>
+    <string name="edt1">Cliente1</string>
+    <string name="edt2">Cliente2</string>
+    <string name="edt3">Cliente3</string>
+</resources>
