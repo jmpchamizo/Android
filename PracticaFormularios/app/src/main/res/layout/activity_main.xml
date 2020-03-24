@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rdg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rdbMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdbMorning"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rdbAfternoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdbAfternoon" />
+
+        <RadioButton
+            android:id="@+id/rdbIndifferent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdbIndifferent" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chbJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rdg" />
+
+    <CheckBox
+        android:id="@+id/chbPython"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/python"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chbJava"/>
+
+    <CheckBox
+        android:id="@+id/chbJavaScript"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/javascript"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chbPython"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chbJavaScript"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
