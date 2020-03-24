@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ParametrosActivities</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="birthdate">Fecha de Nacimiento</string>
+    <string name="btn">Mostrar Datos</string>
+    <string name="title">Registro Usuario:</string>
+    <string name="close">Cerrar</string>
+</resources>
